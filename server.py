@@ -6,7 +6,7 @@ from azure.storage.blob import BlobServiceClient
 app = Flask(__name__)
 
 # Azure Blob Storage configuration
-connect_str = "DefaultEndpointsProtocol=https;AccountName=jfngo;AccountKey=hT9ePXALJj5/uOA2p/6s/1ZhL5n0K6e3Wl0plTbtCm6smaTSI4cZ8BuHtbiwJXeS6SF82domDRz++ASt3PVOcQ==;EndpointSuffix=core.windows.net"
+connect_str = "DefaultEndpointsProtocol=https;AccountName=janvhifoundation;AccountKey=39XmgqMgAVjKAQ6seIRarNC04eqnPgzRXFKckUL/xKsAhSOV52d7BdFSJJZVjt2jmbee52uKGpB4+AStPY939Q==;EndpointSuffix=core.windows.net"
 container_name = "file-transfer"
 
 blob_service_client = BlobServiceClient.from_connection_string(connect_str)
